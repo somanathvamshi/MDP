@@ -1,0 +1,349 @@
+@import url("https://fonts.googleapis.com/css2?family=Raleway:wght@500&display=swap");
+
+#nav-bar {
+  min-height: 4rem;
+  background-color: #110f14;
+  box-shadow: 0 0.5rem 1rem rgb(0 0 0 / 5%), inset 0 -1px 0 rgb(0 0 0 / 10%);
+  color: white;
+}
+.nav.navbar-nav.navbar-right li a {
+  color: white;
+  font-family: Raleway;
+}
+.nav.navbar-nav.navbar-right li a:hover {
+  color: black;
+}
+
+.nav.navbar-nav.navbar-right li:hover {
+  background-color:#4CAF50;
+  font-weight: bold;
+}
+.navbar-header a {
+  font-family: Raleway;
+}
+.problem{
+    max-width: 900px;
+    margin: auto;
+    font-family: Raleway;
+    -webkit-box-shadow: 1px 2px 15px 1px rgba(0,0,0,0.79); 
+    box-shadow: 1px 2px 15px 1px rgba(0,0,0,0.79);
+    background-color: white;
+    text-align: center;
+    padding: 10px;
+    font-weight: 500;
+    border: solid;
+
+    
+}
+.questions{
+    background-color: rgb(245, 245, 245)
+
+}
+.navbar{
+  margin-bottom: 10px;
+}
+.panel-heading{
+  
+  padding: 20px;
+  display: flex;
+  justify-content: space-between;
+  
+  
+}
+.heading h3 *{
+  font-family: Raleway;
+  font-weight: bolder;
+  
+}
+.panel-title{
+  font-weight: bolder;
+  color:#006778;
+
+}
+
+.container{
+
+max-width: 800px;
+margin: auto;
+  
+  
+  
+}
+.row {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  margin-right: -15px;
+  margin-left: -15px;
+}
+.card {
+  border-color: #e0e0e0;
+}
+
+
+.mb-3, .my-3 {
+  margin-bottom: 1rem!important;
+}
+
+.card {
+  position: relative;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  min-width: 0;
+  word-wrap: break-word;
+  background-color: #fff;
+  background-clip: border-box;
+  border: 1px solid black;
+  border-radius: .25rem;
+}
+.bg-primary  {
+  background-color: #006778;
+  color: #fff;
+}
+.card .card-header {
+  padding-top: .5rem;
+  padding-bottom: .5rem;
+  font-size: medium;
+}
+.card .card-body, .card .card-footer, .card .card-header {
+  padding: 1rem;
+}
+.card .h1, .card .h2, .card .h3, .card .h4, .card .h5, .card .h6, .card h1, .card h2, .card h3, .card h4, .card h5, .card h6 {
+  font-family: "Open Sans",apple-system,blinkmacsystemfont,"Segoe UI","Helvetica Neue",arial,sans-serif;
+  line-height: 1.3;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+.card-header:first-child {
+  border-radius: calc(.25rem - 1px) calc(.25rem - 1px) 0 0;
+}
+.h4, h4 {
+  font-size: 1.375rem;
+}
+.faq-all-prompt {
+  font-weight: bold;
+  padding: 6px 6px 12px 3px;
+}
+*, ::after, ::before {
+  box-sizing: border-box;
+}
+#page-search {
+  width: 85%;
+  display: inline-block;
+  height: 35px;
+
+}
+#page-search ::placeholder{
+  font-weight: bolder;
+}
+
+
+
+
+button, input {
+  overflow: visible;
+}
+#page-search-go{
+  background-color:  #006778;
+
+}
+input::-webkit-input-placeholder {
+  font-size: 15px;
+  line-height: 3;
+}
+.naviga-flex{
+  display: flex;
+  justify-content: flex-start;
+}
+.whole-con{
+  display: flex;
+  justify-content: flex-start;
+  margin-left: 100px;
+}
+
+.left-nav{
+  padding: 20px;
+  margin-top: 100px;
+
+ 
+
+}
+
+.left-nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  width: 200px;
+  background-color: rgb(43, 39, 39);
+}
+
+.left-nav li a {
+  display: block;
+  color: white;
+  padding: 6px 8px;
+  text-decoration: none;
+  font-family: Raleway;
+  
+}
+.left-nav div {
+  border-top: 1px solid white;
+}
+
+.left-nav li a.active {
+  background-color: #4CAF50;
+  color: white;
+}
+
+.left-nav li a:hover:not(.active) {
+  background: linear-gradient(to right,  #4CAF50 0%,#4CAF50 3%,#555 3%,#555 100%);
+  color: white;
+}
+.left-nav div{
+  padding: 5px;
+}
+.panel{
+  border: 1px solid black;
+}
+.mail{
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+}
+.con-mail{
+  max-width: 200px;
+  margin-left: 20px;
+  font-family: Raleway;
+  background-color:rgb(245, 245, 245) ;
+  display: flex;
+  flex-wrap: wrap;
+}
+.gov-d-header-text{
+  font-weight: bolder;
+  font-size: large;
+  
+}
+.card-body p{
+  font-size: medium;
+  padding-bottom: 10px;
+}
+#gov-d-email{
+  size: 20px;
+}
+.inp-em{
+  size: 20;
+  padding: 5px;
+}
+.form-group{
+  padding: 5px;
+}
+#btn-eml{
+  background-color:#006778 ;
+}
+*{
+  box-sizing: border-box;
+}
+html, body {
+  overflow-x: hidden;
+  height: 100%;
+}
+
+h1{
+  text-align: center;
+  padding-top: 30px;
+}
+.header {
+  background-color: #eb4d4b;
+  width: 100%;
+  height: 60px;
+  position: fixed;
+  z-index: 10;
+}
+.main {
+  height: 100%;
+  margin-top: 60px;
+  padding: 10px 50px;
+}
+#sidebarMenu {
+  height: 1000px;
+  position: fixed;
+  left: 0;
+  top: 0;
+  width: 250px;
+  margin-top: 50px;
+  transform: translateX(-250px);
+  transition: transform 250ms ease-in-out;
+  background-color:black;
+  font-family: Raleway;
+}
+.menu{
+list-style: none; 
+  margin:0;
+  padding:0;
+  
+}
+.menu li{
+  border-bottom: 1px solid rgba(255, 255, 255, 0.10);
+}
+.menu li a{
+  color: white;
+  display: block;
+  padding: 20px;
+  text-transform: uppercase;
+  
+  text-decoration: none;
+}
+.menu li  :hover{
+  background: linear-gradient(to right,  #4CAF50 0%,#4CAF50 3%,#555 3%,#555 100%);
+}
+.act a:activate{
+  color: #eb4d4b;
+}
+
+#openSidebarMenu:checked ~ #sidebarMenu {
+  transform: translateX(0);
+}
+
+input#openSidebarMenu{
+  display: none;
+}
+.sidebarIconToggle {
+height: 22px;
+  width: 22px;
+  position: absolute;
+  z-index: 99;
+  top: 18px;
+  left: 15px;
+  transition: all 0.3s;
+  cursor: pointer; 
+  margin-bottom: 5px;
+}
+.spinner {
+  height: 3px;
+  background-color: #fff;
+  transition: all 0.3s;
+}
+.spinner.middle ,
+.spinner.bottom{
+  margin-top: 3px;
+}
+
+.footer{
+  background-color: black;
+  padding:10px;
+  color: white;
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+.connect-form{
+  display: flex;
+  flex-direction: row;
+  
+  flex-wrap: wrap;
+  
+  
+
+}
